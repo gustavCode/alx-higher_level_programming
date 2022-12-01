@@ -12,6 +12,6 @@ if __name__ == "__main__":
 
     if l_arg > 1:
         for i in range(1, l_arg):
-            sum += int(ar[i])
+            sum_arg += int(ar[i])
 
     print(sum_arg)
