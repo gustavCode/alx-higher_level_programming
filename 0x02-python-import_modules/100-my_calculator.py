@@ -8,6 +8,7 @@ if __name__ == "__main__":
 
     if (len_arg != 3):
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+        exit(1)
     else:
         num_1 = int(argv[1])
         operator = argv[2]
@@ -16,14 +17,19 @@ if __name__ == "__main__":
         if (operator == "+"):
             result = add(num_1, num_2)
             print("{:d} + {:d} = {:d}".format(num_1, num_2, result))
+            exit(0)
         elif (operator == "-"):
             result = sub(num_1, num_2)
             print("{:d} - {:d} = {:d}".format(num_1, num_2, result))
+            exit(0)
         elif (operator == "*"):
             result = mul(num_1, num_2)
             print("{:d} * {:d} = {:d}".format(num_1, num_2, result))
+            exit(0)
         elif (operator == "/"):
             result = div(num_1, num_2)
             print("{:d} / {:d} = {:d}".format(num_1, num_2, result))
+            exit(0)
         else:
             print("Unknown operator. Available operators: +, -, * and /")
+            exit(1)
