@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from sys
+import sys
 
 if __name__ = "__main__":
     """
