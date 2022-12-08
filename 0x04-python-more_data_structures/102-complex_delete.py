@@ -3,7 +3,7 @@ def complex_delete(a_dictionary, value):
     keys = []
 
     for x, y in a_dictionary.items():
-        if y == value:
+        if y is value:
             keys.append(x)
 
     for x in keys:
