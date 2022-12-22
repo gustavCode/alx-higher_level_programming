@@ -1,8 +1,14 @@
 #!/usr/bin/python3
+"""Square Class
+
+Square class
+
+"""
+
 class Square:
     """Square Class
 
-    This is an empt class
+    This is an empty class
 
     """
 
