@@ -21,7 +21,7 @@ class Square:
         Attributes:
             size (:obj:`int`, optional): size of the square
 
-        Raises: 
+        Raises:
             TypeError: if `size` type is not `int`
 
             ValueError: if `size` is less than 0

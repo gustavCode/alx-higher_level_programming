@@ -12,7 +12,7 @@ class Square:
     This class designs a square
 
     """
-    
+
     def __init__(self, size=0):
         """__init__
 

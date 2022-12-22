@@ -6,7 +6,6 @@ Square class
 """
 
 
-
 class Square:
     """Square
 
@@ -23,7 +22,7 @@ class Square:
             size (:obj:`int`, optional): size of the square
             position (obj: `tuple`): position of square
 
-        Raises: 
+        Raises:
             TypeError: if `size` type is not `int`
 
             ValueError: if `size` is less than 0
@@ -40,7 +39,7 @@ class Square:
                 or self.__check_indexes(position) is False \
                 or self.__check_integers(position) is False \
                 or self.__check_values(position) is False:
-                    raise TypeError('position must be a tuple of 2 positive integers')
+            raise TypeError('position must be a tuple of 2 positive integers')
 
         self.size = size
         self.position = position
@@ -95,7 +94,7 @@ class Square:
                 or self.__check_indexes(position) is False \
                 or self.__check_integers(position) is False \
                 or self.__check_values(position) is False:
-                    raise TypeError('position must be a tuple of 2 positive integers')
+            raise TypeError('position must be a tuple of 2 positive integers')
 
         self.__position = position
 
