@@ -8,20 +8,20 @@ Define classes for a singly-linked list.
 
 class Node:
     """Node
-    
+
     Represent a node in a singly-linked list.
-    
+
     """
 
     def __init__(self, data, next_node=None):
         """__init__
-        
+
         Initialize a new Node.
-        
+
         Args:
             data (int): The data of the new Node.
             next_node (Node): The next node of the new Node.
-        
+
         """
         self.data = data
         self.next_node = next_node
@@ -29,9 +29,9 @@ class Node:
     @property
     def data(self):
         """data
-        
+
         Get/set the data of the Node.
-        
+
         """
         return (self.__data)
 
@@ -44,9 +44,9 @@ class Node:
     @property
     def next_node(self):
         """next_node
-        
+
         Get/set the next_node of the Node.
-        
+
         """
         return (self.__next_node)
 
@@ -59,29 +59,29 @@ class Node:
 
 class SinglyLinkedList:
     """SinglyLinkedList
-    
+
     Represent a singly-linked list.
-    
+
     """
 
     def __init__(self):
         """__init__
-        
+
         Initalize a new SinglyLinkedList.
-        
+
         """
         self.__head = None
 
     def sorted_insert(self, value):
         """sorted_insert
-        
+
         Insert a new Node to the SinglyLinkedList.
         The node is inserted into the list at the correct
         ordered numerical position.
-        
+
         Args:
             value (Node): The new Node to insert.
-        
+
         """
         new = Node(value)
         if self.__head is None:
@@ -100,9 +100,9 @@ class SinglyLinkedList:
 
     def __str__(self):
         """__str__
-        
+
         Define the print() representation of a SinglyLinkedList.
-        
+
         """
         values = []
         tmp = self.__head

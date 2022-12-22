@@ -17,11 +17,11 @@ class Square:
         """__init__
 
         Initialize a new square.
-        
+
         Args:
             size (int): The size of the new square.
             position (int, int): The position of the new square.
-       
+
        """
         self.size = size
         self.position = position
