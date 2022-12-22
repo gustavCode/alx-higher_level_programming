@@ -1,12 +1,16 @@
 #!/usr/bin/python3
 """Square Class
 
-This class designs a square
+Square class
 
 """
 
-
 class Square:
+    """Square
+
+    This class designs a square
+
+    """
 
     def __init__(self, size):
         """__init__
