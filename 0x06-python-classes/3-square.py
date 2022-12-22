@@ -1,6 +1,13 @@
 #!/usr/bin/python3
+"""Square Class
+
+Square class
+
+"""
+
+
 class Square:
-    """Square Class
+    """Square
 
     This class designs a square
 
