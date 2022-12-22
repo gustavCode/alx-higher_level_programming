@@ -5,6 +5,7 @@ Square class
 
 """
 
+
 class Square:
     """Square Class
 
