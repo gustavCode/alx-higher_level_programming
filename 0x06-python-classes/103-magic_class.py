@@ -1,9 +1,19 @@
 #!/usr/bin/python3
+"""MagicClass Class
+
+MagicClass class
+
+"""
 import dis
 import math
 
 
 class MagicClass:
+    """MagicClass
+
+    This class design a magic class
+
+    """
     def __init__(self, radius=0):
         self.__radius = 0
 
