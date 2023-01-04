@@ -13,6 +13,7 @@ class Rectangle:
 
     """
 
+
 def __init__(self, width=0, height=0):
     """
 
@@ -30,6 +31,7 @@ def __init__(self, width=0, height=0):
     self.width = width
     self.height = height
 
+
 @property
 def width(self):
     """
@@ -39,6 +41,7 @@ def width(self):
     """
 
     return self.__width
+
 
 @width.setter
 def width(self, value):
@@ -58,6 +61,7 @@ def width(self, value):
     self.__check_valid_width(value)
     self.__width = value
 
+
 @property
 def height(self):
     """
@@ -67,6 +71,7 @@ def height(self):
     """
 
     return self.__height
+
 
 @height.setter
 def height(self, value):
@@ -85,6 +90,7 @@ def height(self, value):
 
     self.__check_valid_height(value)
     self.__height = value
+
 
 def __check_valid_width(self, width):
     """
@@ -106,6 +112,7 @@ def __check_valid_width(self, width):
     if self.__check_positive_value(width) is False:
         raise ValueError('width must be >= 0')
 
+
 def __check_valid_height(self, height):
     """
 
@@ -126,6 +133,7 @@ def __check_valid_height(self, height):
     if self.__check_positive_value(height) is False:
         raise ValueError('height must be >= 0')
 
+
 def __check_int_value(self, value):
     """
 
@@ -143,6 +151,7 @@ def __check_int_value(self, value):
         return True
 
     return False
+
 
 def __check_positive_value(self, value):
     """
