@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-This is a module with a Rectangle
+This module defines a Rectangle
 
 """
 
@@ -9,7 +9,7 @@ This is a module with a Rectangle
 class Rectangle:
     """
 
-    An empty Rectangle class
+    A Rectangle class
 
     """
 

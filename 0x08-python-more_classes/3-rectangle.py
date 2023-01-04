@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-A module with a Rectangle that does nothing
+This module defines a Rectangle
 
 """
 
@@ -9,7 +9,7 @@ A module with a Rectangle that does nothing
 class Rectangle:
     """
 
-    An empty Rectangle class
+    A Rectangle class
 
     """
 
