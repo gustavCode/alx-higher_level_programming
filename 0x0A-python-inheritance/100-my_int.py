@@ -13,10 +13,10 @@ class MyInt(int):
         """
         Overrides equals method of int class
         """
-        self.real != value
+        return self.real != value
 
     def __ne__(self, value):
         """
         Overrides the not equals method of int class
         """
-        self.real == value
+        return self.real == value
