@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+A module to compare obj and a_class
+"""
+
+
 def is_same_class(obj, a_class):
     """
     Checks if `0bj` is exactly an instance of a specified class
