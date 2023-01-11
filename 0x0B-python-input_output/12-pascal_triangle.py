@@ -11,7 +11,7 @@ def pascal_triangle(n):
 
     Args:
         n (int): size of triangle
-    
+
     Returns:
         a list of lists of integers
         otherwise empty list if n <= 0
