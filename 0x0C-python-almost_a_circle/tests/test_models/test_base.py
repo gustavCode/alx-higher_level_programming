@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A module that test differents behaviors
+A module that test the differents behaviors
 of the Base class
 """
 import unittest
