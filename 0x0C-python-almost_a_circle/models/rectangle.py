@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-...
+A module for a rectangle class
 """
 
 from models.base import Base
@@ -8,13 +8,10 @@ from models.base import Base
 
 class Rectangle(Base):
     """
-    ...
+    A rectangle class that inherits from base class
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """
-        ...
-        """
         super().__init__(id)
 
         self.check_integer_parameter(width, 'width')
@@ -93,7 +90,15 @@ class Rectangle(Base):
 
     def check_integer_parameter(self, value, param):
         """
-        ...
+        Chechs for integer parameters
+
+        Args:
+            value (int): value to be compared
+            param (int): value to compare against
+
+        Raises:
+            TypeError: if not int
+            ValueError: if <= 0
         """
         if type(value) is not int:
             raise TypeError(param + ' must be an integer')
