@@ -6,12 +6,10 @@ variable found in the header of the response.
 """
 
 from sys import argv
-from urllib.request import Request, urlopen
+import urllib.request
 
 
 if __name__ == "__main__":
-    req = Request(argv[1])
-
-    with urlopen(req) as res:
-        headers = res.info()
+    with urllib.request.urlopen(argv[1]) as response:
+        headers = response.info()
         print(headers.get('X-Request-Id'))

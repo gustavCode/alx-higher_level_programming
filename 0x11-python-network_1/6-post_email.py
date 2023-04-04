@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Takes in a URL and an email address, sends a
+"""
+Takes in a URL and an email address, sends a
 POST request to the passed URL with the email
 as a parameter, and finally displays the body
 of the response.
@@ -10,7 +11,7 @@ import requests
 
 
 if __name__ == "__main__":
-    payload = {'email': argv[2]}
-    req = requests.post(argv[1], data=payload)
+    pay_load = {'email': argv[2]}
+    reqs = requests.post(argv[1], data=pay_load)
 
-    print(req.text)
+    print(reqs.text)
