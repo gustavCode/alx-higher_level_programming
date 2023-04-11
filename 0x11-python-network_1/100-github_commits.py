@@ -15,5 +15,5 @@ if __name__ == "__main__":
     uri = '{0}/repos/{1}/{2}/commits'.format(url, argv[2], argv[1])
     reqs = requests.get(uri).json()
 
-    for com in req[0:10]:
+    for com in reqs[0:10]:
         print(com['sha'] + ':', com['commit']['author']['name'])
